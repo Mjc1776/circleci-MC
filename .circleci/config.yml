@@ -10,4 +10,4 @@ jobs:
       
     steps:
       -checkout
-      -run: echo `'a First Hello'`
+      -run: echo 'a First Hello'
