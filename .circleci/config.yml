@@ -9,5 +9,5 @@ jobs:
       -image:circleci/ruby:2.6.3-stretch-node
       
     steps:
-      -checkout:
-      -run: echo 'a First Hello'
+      -checkout
+      -run: (echo "a First Hello")
