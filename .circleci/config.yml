@@ -1,8 +1,13 @@
 version: 2.1
+
+orbs:
+  ruby: circleci/ruby@0.1.2
+  
 jobs:
   build:
     docker:
-      -image:circleci/ruby:2.4.1
+      -image:circleci/ruby:2.6.3-stretch-node
+      
     steps:
       -checkout
-      -run: echo "a First Hello"
+      -run: echo `'a First Hello'`
